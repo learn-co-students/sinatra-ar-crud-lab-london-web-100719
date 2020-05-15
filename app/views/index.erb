@@ -1,0 +1,8 @@
+<h1>My Magazine</h1><br>
+
+<h2>Articles</h2>
+<% @articles.each do |article| %>
+    <p>Title: <%= article.title %></p>
+    <p>Content: <%= article.content %></p>
+    <br>
+<% end %>
